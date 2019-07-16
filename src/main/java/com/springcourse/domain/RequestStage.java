@@ -15,6 +15,8 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
+import com.springcourse.domain.enums.RequestState;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -25,7 +27,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity(name = "request_stage")
-public class RequestState implements Serializable{
+public class RequestStage implements Serializable{
 	
 	private static final long serialVersionUID = 1L;
 
