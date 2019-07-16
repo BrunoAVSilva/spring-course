@@ -5,10 +5,10 @@ import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.springcourse.domain.RequestStage;
+import com.springcourse.domain.RequestState;
 
 @Repository
-public interface RequestStageRepository extends JpaRepository<RequestStage, Long> {
+public interface RequestStateRepository extends JpaRepository<RequestState, Long> {
 
-	public List<RequestStage> findAllByRequestId(Long id);
+	public List<RequestState> findAllByRequestId(Long id);
 }
